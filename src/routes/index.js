@@ -1,7 +1,7 @@
 const newsRouter = require('./news.route');
 
             function route(app) {
-    app.get('/', (req,              res) => {
+    app.get('/', (req, res) => {
         res.render('home');
     });
 
